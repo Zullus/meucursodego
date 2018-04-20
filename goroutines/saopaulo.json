@@ -1,0 +1,22 @@
+[
+  {"Nome":"São Paulo","Estado":"SP"}, 
+  {"Nome":"Andradina","Estado":"SP"}, 
+  {"Nome":"Osasco","Estado":"SP"}, 
+  {"Nome":"Guarujá","Estado":"SP"}, 
+  {"Nome":"Presidente Prudente","Estado":"SP"}, 
+  {"Nome":"Itu","Estado":"SP"}, 
+  {"Nome":"Indaiatuba","Estado":"SP"}, 
+  {"Nome":"Ribeirão Preto","Estado":"SP"}, 
+  {"Nome":"São José dos Campos","Estado":"SP"}, 
+  {"Nome":"Guararema","Estado":"SP"}, 
+  {"Nome":"Ourinhos","Estado":"SP"}, 
+  {"Nome":"Santo André","Estado":"SP"}, 
+  {"Nome":"Mococa","Estado":"SP"}, 
+  {"Nome":"Ribeirão Pires","Estado":"SP"}, 
+  {"Nome":"Santos","Estado":"SP"}, 
+  {"Nome":"Bertioga","Estado":"SP"}, 
+  {"Nome":"Registro","Estado":"SP"}, 
+  {"Nome":"Mongaguá","Estado":"SP"}, 
+  {"Nome":"Bauru","Estado":"SP"}, 
+  {"Nome":"Bragança Paulista","Estado":"SP"}
+]

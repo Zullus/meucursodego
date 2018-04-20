@@ -1,0 +1,68 @@
+package main
+
+import "fmt"
+import "runtime"
+import "time"
+
+func main() {
+
+    numero := 3
+
+    fmt.Print("O número ", numero, " se escreve assim: ")
+
+    switch  numero{
+
+        case 1:
+            fmt.Println("um.")
+
+        case 2:
+            fmt.Println("dois.")
+
+        case 3:
+            fmt.Println("três.")
+    }
+
+    fmt.Println("Você é da família do UNIX?")
+
+    switch runtime.GOOS{
+
+        case "darwin":
+            fallthrough //continua no próximo laço
+        case "freebsd":
+            fallthrough
+        case "linux":
+            fmt.Println("Sim!!!")
+        default:
+            fmt.Println("Deixa essa pergunta para lá....")
+    }
+
+    switch time.Now().Weekday(){
+
+        case time.Saturday, time.Sunday:
+            fmt.Println("Ok, você pode dormir até mais tarde.")
+
+        default:
+            fmt.Println("Vamos lá que é dia de trabalho")
+    }
+
+    numero = 10
+
+    fmt.Println("Esse número cabe num dígito?")
+
+    switch{
+
+        case numero < 10:
+
+            fmt.Println("Sim")
+
+        case numero >= 10 && numero < 100:
+
+            fmt.Println("Serve dois dígitos...")
+
+        case numero >= 100:
+
+            fmt.Println("Não dá, o número é muito grande")
+
+
+    }
+}
